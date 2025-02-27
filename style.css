@@ -1,0 +1,62 @@
+.navbar {
+    height: 10vh;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: black;
+}
+
+.btn {
+    padding: 12px 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 0%;
+    transition: all ease-in-out .5s;
+
+
+}
+
+.btn-brand {
+    background-color:rgb(146, 90, 23);
+    color:blueviolet;
+}
+
+.btn-brand:hover {
+    border: 2px solid chartreuse;
+    color: rgb(228, 206, 174);
+}
+
+.navbar  .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+ 
+#banner {
+    background: url('123.webp');
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
+    color: blueviolet;
+
+}
+#banner p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+  .fixed-img {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover;
+  }
